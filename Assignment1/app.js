@@ -35,3 +35,10 @@ function isPalindrome(str){
 }
 
 console.log("4)Is Palindrome:",isPalindrome(palindrome));
+
+
+//Sum of all Positive numbers in an array:
+let arr_integors=[2,0,-4,-9,10,-12,5,-4];
+var sum=0;
+arr_integors.filter(item=>item>0).map((item)=>{return sum+=item});
+console.log('5)Sum of all positive Numbers:',sum);
